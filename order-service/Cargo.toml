@@ -1,0 +1,22 @@
+[package]
+name = "order-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7", features = ["tokio", "http1"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tracing = "0.1"
+tokio-retry = "0.3"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tokio-postgres = "0.7"
+prometheus = "0.13"
+lazy_static = "1.4"
+clap = { version = "4.3", features = ["derive"] }
+log = "0.4"
+bb8 = "0.8"
+bb8-postgres = "0.8"
+reqwest = { version = "0.12.7", features = ["json"] }
+serial_test = "3.1.1"
