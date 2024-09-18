@@ -11,12 +11,15 @@
 ----
 
 ## Тех стек
-<img src="assets/rust.jpg" height="100">
-<img src="assets/Tokio_logo.jpg" height="100">
-<img src="assets/serde.jpg" height="100">
-<img src="assets/clap.jpeg" height="100">
-<img src="assets/prometheus.svg" height="100">
-<img src="assets/vegeta.jpeg" height="100" width="150">
+
+<div align="center">
+  <img src="assets/rust.jpg" height="100">
+  <img src="assets/Tokio_logo.jpg" height="100">
+  <img src="assets/serde.jpg" height="100">
+  <img src="assets/clap.jpeg" height="100">
+  <img src="assets/prometheus.svg" height="100">
+  <img src="assets/vegeta.jpeg" height="100" width="150">
+</div>
 
 ---
 
